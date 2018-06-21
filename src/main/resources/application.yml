@@ -28,7 +28,7 @@ app:
         properties:
           hibernate:
             dialect: org.hibernate.dialect.PostgreSQL95Dialect
-            # save warning
+            # avoid warning
             jdbc:
               lob:
                 non_contextual_creation: true
